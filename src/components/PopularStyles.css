@@ -23,6 +23,13 @@
     justify-content: space-between;
 }
 
+.popularcard-split-1{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
 .popularcard-split-4{
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -64,6 +71,15 @@
     cursor: pointer;
     padding: 2rem 2rem;
     background-color: #fff;
+}
+
+.popularcard-split-1 .t-card{
+    width: 99%;
+    text-align: start;
+    box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.11);
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 2rem 2rem;
 }
 
 .popularcard-split-2 .t-card{
@@ -127,6 +143,10 @@
     border-radius: 7px;
 }
 
+.popularcard-split-1 .t-image{
+    height: 100%;
+}
+
 .popularcard-split-5 .t-image{
     height: 250px;
 }
@@ -156,6 +176,9 @@
     .popularcard{
         flex-direction: column;
     }
+    .popularcard-split-1{
+        flex-direction: column;
+    }
     .popularcard-split-2{
         flex-direction: column;
     }
@@ -167,6 +190,15 @@
     }
     .popularcard-split-6{
         flex-direction: column;
+    }
+    .popularcard-split-1 .t-card{
+        width: 100%;
+        margin-bottom: 0rem;
+        padding: 32px 32px 12px 32px;
+    }
+    .popularcard-split-1 .t-card h4{
+        font-size: 0rem;
+        padding: 0rem;
     }
     .popularcard-split-2 .t-card{
         width: 100%;
