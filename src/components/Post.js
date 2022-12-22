@@ -10,7 +10,7 @@ const Post = () =>{
         <div className="post">
             <h2>Andal's</h2>
             <h1>Content</h1>
-            <p>These are the different types of content that Andal posts during 2022</p>
+            <p>This is three types of Andal's posts in 2022</p>
             <PostData
                 className="first-des"
                 heading="DigiScope"

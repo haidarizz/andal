@@ -1,5 +1,6 @@
 .post{
     margin: 4rem 6rem;
+    padding-bottom: 4rem;
 }
 
 .post h1{
@@ -12,10 +13,6 @@
     font-size: 4rem;
     font-family: "Satisfy";
     color: #F3B900;
-}
-
-.post p{
-    margin: 1.5rem 0;
 }
 
 .first-des{
@@ -85,10 +82,11 @@
     font-family: "Satisfy";
     font-size: 3rem;
     color: #202c5c;
+    padding-bottom: 2rem;
 }
 
 .des-text p{
-    padding-bottom: 2rem;
+    padding-bottom: 3.5rem;
     text-align: justify;
 }
 
@@ -132,8 +130,11 @@
         width: 100%;
         text-align: justify;
     }
+    .des-text h2{
+        padding-bottom: 1rem;
+    }
     .des-text p{
-        padding-bottom: 0rem;
+        padding-bottom: 2rem;
     }
     .image{
         width: 100%;

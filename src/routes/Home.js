@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar"
 import img12 from "../assets/andal1.JPG";
 import Post from "../components/Post";
 import AboutUs from "../components/AboutUs";
+import Popular from "../components/Popular";
 
 function Home (){
     return(
@@ -19,6 +20,7 @@ function Home (){
             btnClass="show"/>
             <AboutUs />
             <Post />
+            <Popular />
         </>
     )
 }
