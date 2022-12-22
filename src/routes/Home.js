@@ -20,7 +20,7 @@ function Home (){
             url="/"
             btnClass="show"/>
             <AboutUs />
-            <Post />
+            <Post cName="block"/>
             <Popular />
             <Footer />
         </>

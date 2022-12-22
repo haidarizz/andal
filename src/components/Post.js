@@ -6,10 +6,11 @@ import digi1 from "../assets/digi1.jpg";
 import digi2 from "../assets/digi2.jpg";
 import PostData from "./PostData";
 import "./PostStyles.css";
+import "./PostStylesBlock.css";
 
-const Post = () =>{
+function Post (props){
     return(
-        <div className="post">
+        <div className={props.cName}>
             <h2>Andal's</h2>
             <h1>Content</h1>
             <p>This is three types of Andal's posts in 2022</p>

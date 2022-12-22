@@ -1,6 +1,6 @@
 .post{
     margin: 4rem 8rem;
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
 }
 
 .post h1{
@@ -15,22 +15,24 @@
     color: #F3B900;
 }
 
-.first-des{
+.post .first-des{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 4.5rem;
+    padding-bottom: 4rem;
 }
 
-.first-des-reverse{
+.post .first-des-reverse{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
     margin-top: 4.5rem;
+    padding-bottom: 4rem;
 }
 
-.first-des .show{
+.post .first-des .show{
     margin-top: 1rem;
     text-decoration: none;
     background: #084c5c;
@@ -43,7 +45,7 @@
     padding: 1rem 1.2rem;
 }
 
-.first-des-reverse .show{
+.post .first-des-reverse .show{
     margin-top: 1rem;
     text-decoration: none;
     background: #084c5c;
@@ -56,7 +58,7 @@
     padding: 1rem 1.2rem;
 }
 
-.first-des .show:hover{
+.post .first-des .show:hover{
     background-color: #F3B900;
     color: #084c5c;
     border-radius: 4px;
@@ -64,7 +66,7 @@
     opacity: 1;
 }
 
-.first-des-reverse .show:hover{
+.post .first-des-reverse .show:hover{
     background-color: #F3B900;
     color: #084c5c;
     border-radius: 4px;
@@ -72,25 +74,25 @@
     opacity: 1;
 }
 
-.des-text{
+.post .des-text{
     width: 45%;
     text-align: start;
     font-size: 1.1rem;
 }
 
-.des-text h2{
+.post .des-text h2{
     font-family: "Satisfy";
     font-size: 3rem;
     color: #084c5c;
     padding-bottom: 2rem;
 }
 
-.des-text p{
+.post .des-text p{
     padding-bottom: 3.5rem;
     text-align: justify;
 }
 
-.image{
+.post .image{
     position: relative;
     width: 50%;
     display: flex;
@@ -98,7 +100,7 @@
     z-index: -99;
 }
 
-.image img{
+.post .image img{
     width: 49%;
     height: 300px;
     object-fit: cover;
@@ -106,7 +108,7 @@
     box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
 }
 
-.image img:nth-child(2){
+.post .image img:nth-child(2){
     position: absolute;
     top: -10%;
     right: 0;
@@ -116,40 +118,40 @@
     .post{
         margin: 4rem 2rem;
     }
-    .first-des{
+    .post .first-des{
         display: flex;
         flex-direction: column-reverse;
         margin-top: 4.5rem;
     }
-    .first-des-reverse{
+    .post .first-des-reverse{
         display: flex;
         flex-direction: column-reverse;
         margin-top: 4.5rem;
     }
-    .des-text{
+    .post .des-text{
         width: 100%;
         text-align: justify;
     }
-    .des-text h2{
+    .post .des-text h2{
         padding-bottom: 1rem;
     }
-    .des-text p{
+    .post .des-text p{
         padding-bottom: 2rem;
     }
-    .image{
+    .post .image{
         width: 100%;
         margin: 1.8rem 0;
     }
-    .image img{
+    .post .image img{
         height: 250px;
     }
-    .first-des .show{
+    .post .first-des .show{
         margin-top: 0rem;
         width: 100%;
         display: block;
         text-align: center;
     }
-    .first-des-reverse .show{
+    .post .first-des-reverse .show{
         margin-top: 0rem;
         width: 100%;
         display: block;

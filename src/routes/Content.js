@@ -12,7 +12,7 @@ function Content (){
             heroImg={img}
             imgClass="img"
             btnClass="hide"/>
-            <Post />
+            <Post cName="post" />
             <Footer />
         </>
     )

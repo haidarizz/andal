@@ -1,6 +1,4 @@
-//import Popular from "./Popular";
 import "./PopularStyles.css";
-import {Link} from "react-router-dom";
 
 function CardData(props){
     return(
@@ -10,6 +8,7 @@ function CardData(props){
                     <img src={props.image} alt="image"/>
                 </div>
                 <h4>{props.heading}</h4>
+                <h5>{props.subtitle}</h5>
                 <p>{props.text}</p>
             </a>
         </div>
