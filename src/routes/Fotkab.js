@@ -9,7 +9,7 @@ function Fotkab (){
         <>
             <Navbar />
             <Hero cName="hero-mid"
-            subtitle="Fotkab"
+            subtitle="Foto Kabinet"
             title="Moment"
             heroImg={img}
             imgClass="img"

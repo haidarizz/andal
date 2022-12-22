@@ -1,5 +1,4 @@
 import "./HeroStyles.css";
-import img12 from "../assets/arg.webp";
 
 function Hero (props){
     return(
