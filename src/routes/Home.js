@@ -4,6 +4,7 @@ import img12 from "../assets/andal1.JPG";
 import Post from "../components/Post";
 import AboutUs from "../components/AboutUs";
 import Popular from "../components/Popular";
+import Footer from "../components/Footer";
 
 function Home (){
     return(
@@ -21,6 +22,7 @@ function Home (){
             <AboutUs />
             <Post />
             <Popular />
+            <Footer />
         </>
     )
 }
