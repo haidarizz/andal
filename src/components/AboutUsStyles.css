@@ -1,0 +1,32 @@
+.about{
+    margin: 4rem 20rem;
+}
+
+.about h1{
+    font-size: 3rem;
+    color: #202c5c;
+    margin-top: -1rem;
+    padding-bottom: 1rem;
+}
+
+.about h2{
+    font-size: 4rem;
+    font-family: "Satisfy";
+    color: #F3B900;
+}
+
+.about p{
+    padding: 2rem;
+    border-radius: 12px;
+    border-color: #202c5c;
+    border-style: outset;
+    border-width: 2px;
+    text-align: justify;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 850px) {
+    .about{
+        margin: 4rem 2rem;
+    }
+}
