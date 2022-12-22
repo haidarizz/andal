@@ -1,5 +1,4 @@
 import "./PopularStyles.css";
-import "./DigitrendContentStyles.css";
 import CardData from "./CardData";
 import trend1 from "../assets/trend1.jpg";
 import trend2 from "../assets/trend2.jpg";
