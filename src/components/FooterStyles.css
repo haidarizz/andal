@@ -1,5 +1,5 @@
 .footer{
-    padding: 4rem 10rem;
+    padding: 4rem 8rem;
     background: #202c5c;
     color: #fff;
 }
@@ -10,6 +10,12 @@
     text-align: start;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.top h1{
+    font-size: 4rem;
+    font-family: "Satisfy";
+    color: #F3B900;
 }
 
 .top i{

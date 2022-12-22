@@ -9,7 +9,7 @@ const Footer = () =>{
                     <p>Thank You 2022, See You!</p>
                 </div>
                 <div>
-                    <a href="./">
+                    <a href="https://www.instagram.com/sobat.data/">
                         <i className="fa-brands fa-instagram-square"></i>
                     </a>
                 </div>
