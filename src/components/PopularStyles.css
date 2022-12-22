@@ -5,7 +5,7 @@
 
 .popular h1{
     font-size: 3rem;
-    color: #202c5c;
+    color: #084c5c;
     margin-top: -1rem;
 }
 
@@ -66,8 +66,8 @@
 }
 
 .t-card:hover{
-    background-color: #f0eee6;
-    transition: all 0.3s ease-in-out;
+    background-color: #f4f2f4;
+    transition: all 0.3s ease-in-out;;
 }
 
 .t-card p{

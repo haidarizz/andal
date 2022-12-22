@@ -1,7 +1,7 @@
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer";
-import img from "../assets/trend-cover.jpg";
+import img from "../assets/greencyber.jpg";
 import DigiscopeContent from "../components/DigiscopeContent";
 
 function Digiscope (){
@@ -10,8 +10,9 @@ function Digiscope (){
             <Navbar />
             <Hero cName="hero-mid"
             heroImg={img}
-            imgClass="img-mid"
-            title="This is DigiScope"
+            imgClass="img"
+            subtitle="This is"
+            title="DigiScope"
             btnClass="hide"/>
             <DigiscopeContent />
             <Footer />

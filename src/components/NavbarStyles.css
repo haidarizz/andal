@@ -29,7 +29,7 @@
 }
 
 .navbar-logo:hover{
-    color: #F3B900;
+    color: #084c5c;
 }
 
 .nav-menu{
@@ -55,7 +55,7 @@
 }
 
 .nav-links:hover{
-    background-color: #202c5c;
+    background-color: #084c5c;
     color: #F3B900;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
@@ -99,7 +99,7 @@
         padding: 2rem 0;
     }
     .nav-links:hover{
-        background-color: #202c5c;
+        background-color: #084c5c;
         transition: none;
     }
     .menu-icons{

@@ -1,17 +1,16 @@
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer";
-import img from "../assets/trend-cover.jpg";
+import img from "../assets/andal1.JPG";
 import Post from "../components/Post";
 
 function Content (){
     return(
         <>
             <Navbar />
-            <Hero cName="hero-mid"
+            <Hero cName="hero-low"
             heroImg={img}
-            imgClass="img-mid"
-            title="This is Our Content"
+            imgClass="img"
             btnClass="hide"/>
             <Post />
             <Footer />

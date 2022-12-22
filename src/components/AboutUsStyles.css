@@ -4,7 +4,7 @@
 
 .about h1{
     font-size: 3rem;
-    color: #202c5c;
+    color: #084c5c;
     margin-top: -1rem;
     padding-bottom: 1rem;
 }
@@ -18,7 +18,7 @@
 .about p{
     padding: 2rem;
     border-radius: 12px;
-    border-color: #202c5c;
+    border-color: #084c5c;
     border-style: outset;
     border-width: 2px;
     text-align: justify;
