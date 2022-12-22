@@ -71,7 +71,7 @@ function DigitrendContent (){
                 />
                 <CardData
                     image={trend9}
-                    heading="DigiTrend #9 Halo Kominfo? Kominfo Mana Tanggung Jawabmu?"
+                    heading="DigiTrend #9: Halo Kominfo? Kominfo Mana Tanggung Jawabmu?"
                     text="Kebocoran data sedang marak terjadi di Indonesia. Masyarakat mempertanyakan solusi dan tanggung jawab dari Kominfo sebagai lembaga pemerintahan di bidang komunikasi dan informatika. Namun, pihak Kominfo mengatakan bahwa ini sebenarnya tugas BSSN untuk mengatasi serangan siber. Lah, kok seperti lari dari tanggung jawab? Oleh karena itu, digitrend kali ini akan membahas tugas Kominfo dan BSSN, tanggapan dari kedua belah pihak, dan janji-janji Kominfo. Yuk, cek postingan ini!"
                     url="https://www.instagram.com/p/Cio7cpQB1b2/?utm_source=ig_web_copy_link"
                 />

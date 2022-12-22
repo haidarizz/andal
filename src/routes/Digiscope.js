@@ -2,21 +2,21 @@ import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer";
 import img from "../assets/trend-cover.jpg";
-import DigitrendContent from "../components/DigitrendContent";
+import DigiscopeContent from "../components/DigiscopeContent";
 
-function Digitrend (){
+function Digiscope (){
     return(
         <>
             <Navbar />
             <Hero cName="hero-mid"
             heroImg={img}
             imgClass="img-mid"
-            title="This is DigiTrend"
+            title="This is DigiScope"
             btnClass="hide"/>
-            <DigitrendContent />
+            <DigiscopeContent />
             <Footer />
         </>
     )
 }
 
-export default Digitrend;
+export default Digiscope;
