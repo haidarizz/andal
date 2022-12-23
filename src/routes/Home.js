@@ -17,7 +17,7 @@ function Home (){
             title="Andal 2022"
             text="I will miss it guys, very sure :("
             buttonText="Let's Enjoy"
-            url="/"
+            url="content"
             btnClass="show"/>
             <AboutUs />
             <Post cName="block"/>

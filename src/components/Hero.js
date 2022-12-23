@@ -1,4 +1,5 @@
 import "./HeroStyles.css";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Hero (props){
     return(
@@ -9,9 +10,9 @@ function Hero (props){
                 <h2>{props.subtitle}</h2>
                 <h1>{props.title}</h1>
                 <p>{props.text}</p>
-                <a href={props.url} className={props.btnClass}>
+                <Link to={props.url} activeClass="active" className={props.btnClass} spy={true} smooth={true} offset={-70} duration={500}>
                     {props.buttonText}
-                </a>
+                </Link>
             </div>
         </div>
         </>
