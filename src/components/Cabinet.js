@@ -1,4 +1,5 @@
 import "./PopularStyles.css";
+import "./CabinetStyles.css";
 import CardData from "./CardData";
 import haidar from "../assets/haidar.jpg";
 import diqi from "../assets/diqi.jpeg";
@@ -25,8 +26,8 @@ import yazid from "../assets/yazid.png";
 function Cabinet (){
     return(
         <div className="popular">
-            <h2>Pengurus</h2>
-            <h1>Harian</h1>
+            <h7>Pengurus</h7>
+            <h6>Harian</h6>
             <div className="popularcard-split-4">
                 <CardData
                     image={haidar}
@@ -57,8 +58,8 @@ function Cabinet (){
                     url="https://www.instagram.com/khanisaz/"
                 />
             </div>
-            <h2>Kedirjenan</h2>
-            <h1>Internal</h1>
+            <h3>Kedirjenan</h3>
+            <h6>Internal</h6>
             <div className="popularcard-split-5">
                 <CardData
                     image={banen}
@@ -96,8 +97,8 @@ function Cabinet (){
                     url="https://www.instagram.com/shabiraas/"
                 />
             </div>
-            <h2>Kedirjenan</h2>
-            <h1>Media dan Penulisan</h1>
+            <h3>Kedirjenan</h3>
+            <h6>Media dan Penulisan</h6>
             <div className="popularcard-split-6">
             <CardData
                     image={salma}
@@ -142,8 +143,8 @@ function Cabinet (){
                     url="https://www.instagram.com/muhammadalfianmukti/"
                 />
             </div>
-            <h2>Kedirjenan</h2>
-            <h1>Teknikal</h1>
+            <h3>Kedirjenan</h3>
+            <h6>Teknikal</h6>
             <div className="popularcard-split-6">
             <CardData
                     image={juang}

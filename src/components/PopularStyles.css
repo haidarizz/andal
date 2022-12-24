@@ -16,44 +16,44 @@
     color: #F3B900;
 }
 
-.popularcard{
-    margin-top: 3rem;
+.popular p{
     margin-bottom: 3rem;
+}
+
+.popular .section2{
+    margin-top: 2.5rem;
+}
+
+.popular .section2special{
+    margin-top: 2.5rem;
+}
+
+.popularcard{
     display: flex;
     justify-content: space-between;
 }
 
 .popularcard-split-1{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
 }
 
 .popularcard-split-4{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
 }
 
 .popularcard-split-2{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
 }
 
 .popularcard-split-5{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
 }
 
 .popularcard-split-6{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
 }
@@ -125,6 +125,7 @@
 
 .t-card p{
     text-align: justify;
+    margin-bottom: 0rem;
 }
 
 .t-card h4{
@@ -189,9 +190,32 @@
         width: 100%;
         margin-bottom: 1.5rem;
     }
+    .popularcard-split-4{
+        flex-direction: column;
+    }
+    .popularcard-split-4 .t-card{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .popularcard-split-4 .t-image{
+        height: 600px;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .popularcard .t-image{
+        height: 600px;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .popular .section2{
+        margin-top: 0rem;
+    }
 }
 
 @media screen and (max-width:1050px) {
+    .popular .section2special{
+        margin-top: 0rem;
+    }
     .popularcard{
         flex-direction: column;
     }
@@ -244,5 +268,28 @@
 @media screen and (max-width:850px) {
     .popular{
         padding: 4rem 2rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .popularcard-split-6 .t-image{
+        height: 400px;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .popularcard-split-5 .t-image{
+        height: 400px;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .popularcard-split-4 .t-image{
+        height: 400px;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .popularcard .t-image{
+        height: 400px;
+        width: 100%;
+        margin-bottom: 1.5rem;
     }
 }

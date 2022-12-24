@@ -29,19 +29,21 @@ function DatascopeContent (){
                     url="https://www.instagram.com/p/Cd-dN6phbCG/?utm_source=ig_web_copy_link"
                 />
             </div>
-            <div className="popularcard-split-2">
-                <CardData
-                    image={data4}
-                    heading="DataScope #4: Pemindahan IKN Nambah Utang Negara?"
-                    text="Realisasi program pemindahan ibu kota negara menuai beragam pro dan kontra dikalangan ahli dan masyarakat. Kelancaran program besar-besaran era kepresidenan Bapak Joko Widodo, mengenai pindahnya ibukota negara, perlu dipertimbangkan dan dikawal semua pihak agar jalannya dapat bermanfaat bagi keberlangsungan Negara Kesatuan Republik Indonesia kedepannya. Pada Datascope #4 kali ini, kami menganalisis berbagai aspek pro dan kontra terhadap pemindahan IKN. Data yang kami analisis merupakan data umum yang telah tersebar luas di internet dan tentunya dapat dipercaya. Setelah membaca datascope kali ini, diharapkan pembaca dapat memiliki jawaban dari pertanyaan ”Apakah pertimbangan pemerintah sudah benar dan pemindahan ibu kota merupakan pilihan dan solusi tepat bagi berbagai permasalahan yang ada?”"
-                    url="https://www.instagram.com/p/CfgFrW2hz-L/?utm_source=ig_web_copy_link"
-                />
-                <CardData
-                    image={data5}
-                    heading="DataScope #5: Data Aja Bocor, Gimana Mau Percaya?"
-                    text="Cybersecurity Indonesia sedang dalam keadaan kacau dengan dugaan kebocoran data yang dialami masyarakat Indonesia sudah tidak jarang didengar. Berdasarkan artikel yang ditulis Kompas.com, pada tahun 2020, tercatat 7 kasus kebocoran data baik dari pemerintah maupun swasta, sedangkan pada tahun 2021 setidaknya ada 3 kasus kebocoran data masyarakat Indonesia. Data tersebut menunjukan betapa rentannya data kita untuk tersebar ke pihak-pihak yang kurang bertanggung jawab. Dari beberapa kasus kebocoran data tentu besar sekali kerugian yang dialami baik oleh pengguna maupun instansi. Dilansir dari Laporan Indonesia Cyber Security Independent Resilience Team (CSIRT), kerugian materil dari kebocoran data BPJS mencapai Rp600 triliun. Angka tersebut diperhitungkan berdasarkan kerugian yang dialami baik oleh pengguna maupun pemerintah. Bagaimana tidak? Lantas bagaimana sikap pemerintah dalam menanggapi kekacauan cybersecurity Indonesia? Amankah data kita dalam genggaman pemerintah? Simak kajian kami berikut."
-                    url="https://www.instagram.com/p/CiuRIz5OO4h/?utm_source=ig_web_copy_link"
-                />
+            <div className="section2special">
+                <div className="popularcard-split-2">
+                    <CardData
+                        image={data4}
+                        heading="DataScope #4: Pemindahan IKN Nambah Utang Negara?"
+                        text="Realisasi program pemindahan ibu kota negara menuai beragam pro dan kontra dikalangan ahli dan masyarakat. Kelancaran program besar-besaran era kepresidenan Bapak Joko Widodo, mengenai pindahnya ibukota negara, perlu dipertimbangkan dan dikawal semua pihak agar jalannya dapat bermanfaat bagi keberlangsungan Negara Kesatuan Republik Indonesia kedepannya. Pada Datascope #4 kali ini, kami menganalisis berbagai aspek pro dan kontra terhadap pemindahan IKN. Data yang kami analisis merupakan data umum yang telah tersebar luas di internet dan tentunya dapat dipercaya. Setelah membaca datascope kali ini, diharapkan pembaca dapat memiliki jawaban dari pertanyaan ”Apakah pertimbangan pemerintah sudah benar dan pemindahan ibu kota merupakan pilihan dan solusi tepat bagi berbagai permasalahan yang ada?”"
+                        url="https://www.instagram.com/p/CfgFrW2hz-L/?utm_source=ig_web_copy_link"
+                    />
+                    <CardData
+                        image={data5}
+                        heading="DataScope #5: Data Aja Bocor, Gimana Mau Percaya?"
+                        text="Cybersecurity Indonesia sedang dalam keadaan kacau dengan dugaan kebocoran data yang dialami masyarakat Indonesia sudah tidak jarang didengar. Berdasarkan artikel yang ditulis Kompas.com, pada tahun 2020, tercatat 7 kasus kebocoran data baik dari pemerintah maupun swasta, sedangkan pada tahun 2021 setidaknya ada 3 kasus kebocoran data masyarakat Indonesia. Data tersebut menunjukan betapa rentannya data kita untuk tersebar ke pihak-pihak yang kurang bertanggung jawab. Dari beberapa kasus kebocoran data tentu besar sekali kerugian yang dialami baik oleh pengguna maupun instansi. Dilansir dari Laporan Indonesia Cyber Security Independent Resilience Team (CSIRT), kerugian materil dari kebocoran data BPJS mencapai Rp600 triliun. Angka tersebut diperhitungkan berdasarkan kerugian yang dialami baik oleh pengguna maupun pemerintah. Bagaimana tidak? Lantas bagaimana sikap pemerintah dalam menanggapi kekacauan cybersecurity Indonesia? Amankah data kita dalam genggaman pemerintah? Simak kajian kami berikut."
+                        url="https://www.instagram.com/p/CiuRIz5OO4h/?utm_source=ig_web_copy_link"
+                    />
+                </div>
             </div>
         </div>
     )

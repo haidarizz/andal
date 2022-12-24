@@ -1,0 +1,20 @@
+.popular h6{
+    font-size: 3rem;
+    color: #084c5c;
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+}
+
+.popular h3{
+    font-size: 4rem;
+    font-family: "Satisfy";
+    color: #F3B900;
+    margin-top: 2rem;
+}
+
+.popular h7{
+    font-size: 4rem;
+    font-family: "Satisfy";
+    color: #F3B900;
+    font-weight: 700;
+}
