@@ -15,6 +15,7 @@ import trend11 from "../assets/trend11.jpg";
 function DigitrendContent (){
     return(
         <div className="popular">
+            <p className="p-content">Click the card to see the post on Instagram!</p>
             <div className="popularcard-split-4">
                 <CardData
                     image={trend1}

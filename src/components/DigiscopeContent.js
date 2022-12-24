@@ -14,6 +14,7 @@ import digi10 from "../assets/digi10.jpg";
 function DigiscopeContent (){
     return(
         <div className="popular">
+            <p className="p-content">Click the card to see the post on Instagram!</p>
             <div className="popularcard">
                 <CardData
                     image={digi1}

@@ -9,7 +9,7 @@ function Popular (){
         <div className="popular">
             <h2>Andal's</h2>
             <h1>Popular Posts</h1>
-            <p>This is the most popular Andal's posts in 2022</p>
+            <p>This is the most popular Andal's posts in 2022. Click the card to see it on Instagram!</p>
             <div className="popularcard">
                 <CardData
                     image={digi8}

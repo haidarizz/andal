@@ -9,6 +9,7 @@ import data5 from "../assets/data5.jpg";
 function DatascopeContent (){
     return(
         <div className="popular">
+            <p className="p-content">Click the card to see the post on Instagram!</p>
             <div className="popularcard">
                 <CardData
                     image={data1}
